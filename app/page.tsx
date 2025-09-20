@@ -52,7 +52,7 @@ export default function LandingPage() {
       <header className="relative flex flex-col items-center justify-center py-16 px-4 text-center min-h-[100vh]">
         <div className="absolute inset-0 z-0">
           <img
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ChatGPT%20Image%2014%20abr%202025%2C%2006_07_14%20p.m.-xuVRgsQNWcwFCi6Y9pblKzWVArvrbE.png"
+            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/design-mode-images/ChatGPT%20Image%2014%20abr%202025%2C%2006_07_14%20p.m.-ayVOveJZYYrXynz1GnhGQ73WtMGLui.png"
             alt="Truco Cards Background"
             className="w-full h-full object-cover opacity-70"
             style={{ objectPosition: "center 30%" }}
@@ -112,7 +112,7 @@ export default function LandingPage() {
               transition={{ delay: 1.8, duration: 0.5 }}
             >
               <a
-                href="https://chat.whatsapp.com/Ho3cUV20dgkGVKDnCPsRm3?mode=ems_wa_t"
+                href="https://chat.whatsapp.com/DST5UgilCHPD2PMoA9bqSk"
                 target="_blank"
                 rel="noreferrer"
                 className="inline-flex items-center gap-2 bg-gradient-to-r from-green-500 to-green-400 hover:from-green-400 hover:to-green-300 text-white px-8 sm:px-10 py-4 sm:py-4 rounded-full shadow-[0_0_25px_rgba(34,197,94,0.7)] hover:shadow-[0_0_35px_rgba(34,197,94,1)] transition-all duration-300 animate-pulse-glow"
@@ -192,7 +192,7 @@ export default function LandingPage() {
         {/* Background image with overlay */}
         <div className="absolute inset-0 z-0">
           <img
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-SUveYB5nMcEJNabHYt5pLexhLVqYdg.png"
+            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/design-mode-images/image-vvSVYMwDik5Bi08a4RX5re5A8Eoc84.png"
             alt="Truco Cards"
             className="w-full h-full object-cover"
           />
@@ -245,7 +245,7 @@ export default function LandingPage() {
   className="flex flex-col items-center justify-center py-12 sm:py-20 text-center"
 >
   <img
-    src="https://i.imgur.com/Tgl2fcq.jpeg"
+    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/design-mode-images/Tgl2fcq-VYRLy3lDliAN5n3V3oIF4CanhSQRmu.jpeg"
     alt="Chinchón Blyts"
     className="w-44 sm:w-64 md:w-72 h-auto object-contain rounded-xl shadow-2xl border border-white/10 mb-6"
   />
@@ -277,7 +277,7 @@ export default function LandingPage() {
         {/* Money background image with overlay */}
         <div className="absolute inset-0 z-0">
           <img
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-8x4uBoQUzU9JoWV5iwffRKTbFL6aOa.png"
+            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/design-mode-images/image-ADJ8TISjipMXNjnuJ9oPFm1wl1ER3R.png"
             alt="Money Background"
             className="w-full h-full object-cover"
           />
@@ -294,7 +294,7 @@ export default function LandingPage() {
           <motion.div variants={fadeInUp} className="relative inline-block">
             <div className="absolute inset-0 bg-green-500 rounded-full blur-xl opacity-30 animate-pulse-slow"></div>
             <a
-              href="https://chat.whatsapp.com/Ho3cUV20dgkGVKDnCPsRm3?mode=ems_wa_t"
+              href="https://chat.whatsapp.com/DST5UgilCHPD2PMoA9bqSk"
               target="_blank"
               rel="noreferrer"
               className="relative inline-flex items-center gap-2 bg-gradient-to-r from-green-500 to-green-400 hover:from-green-400 hover:to-green-300 text-white px-6 sm:px-10 py-3 sm:py-5 rounded-full shadow-[0_0_25px_rgba(34,197,94,0.7)] hover:shadow-[0_0_35px_rgba(34,197,94,1)] transition-all duration-300 animate-pulse-glow"
