@@ -163,9 +163,25 @@
   }
 }
 
-/* Responsive adjustments */
+/* Added smooth scroll behavior for better UX */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Optimized responsive adjustments */
 @media (max-width: 640px) {
   .text-shadow-neon {
     text-shadow: 0 0 3px rgba(255, 255, 255, 0.8), 0 0 7px rgba(255, 255, 255, 0.5), 0 0 10px rgba(255, 255, 255, 0.5);
+  }
+}
+
+/* Added performance optimization for animations */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
   }
 }

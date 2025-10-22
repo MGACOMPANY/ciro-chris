@@ -112,7 +112,7 @@ export default function LandingPage() {
               transition={{ delay: 1.8, duration: 0.5 }}
             >
               <a
-                href="https://chat.whatsapp.com/GwGbI28YaFg27qzjSTNBYk?mode=wwc"
+                href="https://chat.whatsapp.com/KUh6f7srhlk3aAy4bv58h1"
                 target="_blank"
                 rel="noreferrer"
                 className="inline-flex items-center gap-2 bg-gradient-to-r from-green-500 to-green-400 hover:from-green-400 hover:to-green-300 text-white px-8 sm:px-10 py-4 sm:py-4 rounded-full shadow-[0_0_25px_rgba(34,197,94,0.7)] hover:shadow-[0_0_35px_rgba(34,197,94,1)] transition-all duration-300 animate-pulse-glow"
@@ -191,11 +191,7 @@ export default function LandingPage() {
       >
         {/* Background image with overlay */}
         <div className="absolute inset-0 z-0">
-          <img
-            src="/images/design-mode/image%281%29.png"
-            alt="Truco Cards"
-            className="w-full h-full object-cover"
-          />
+          <img src="/images/design-mode/image%281%29.png" alt="Truco Cards" className="w-full h-full object-cover" />
           <div className="absolute inset-0 bg-black/80"></div>
         </div>
 
@@ -237,34 +233,34 @@ export default function LandingPage() {
       </motion.section>
 
       {/* Sección promocional de Chinchón */}
-<motion.div
-  initial={{ opacity: 0, y: 30 }}
-  whileInView={{ opacity: 1, y: 0 }}
-  viewport={{ once: true, amount: 0.5 }}
-  transition={{ duration: 0.6 }}
-  className="flex flex-col items-center justify-center py-12 sm:py-20 text-center"
->
-  <img
-    src="/images/design-mode/Tgl2fcq%281%29.jpeg"
-    alt="Chinchón Blyts"
-    className="w-44 sm:w-64 md:w-72 h-auto object-contain rounded-xl shadow-2xl border border-white/10 mb-6"
-  />
+      <motion.div
+        initial={{ opacity: 0, y: 30 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true, amount: 0.5 }}
+        transition={{ duration: 0.6 }}
+        className="flex flex-col items-center justify-center py-12 sm:py-20 text-center"
+      >
+        <img
+          src="/images/design-mode/Tgl2fcq%281%29.jpeg"
+          alt="Chinchón Blyts"
+          className="w-44 sm:w-64 md:w-72 h-auto object-contain rounded-xl shadow-2xl border border-white/10 mb-6"
+        />
 
-  <p className="text-white/90 text-lg sm:text-xl max-w-xl mb-6">
-    ¿Te gusta el <strong>Chinchón</strong>? Ahora también podés jugar por plata en nuestro grupo exclusivo de WhatsApp.
-  </p>
+        <p className="text-white/90 text-lg sm:text-xl max-w-xl mb-6">
+          ¿Te gusta el <strong>Chinchón</strong>? Ahora también podés jugar por plata en nuestro grupo exclusivo de
+          WhatsApp.
+        </p>
 
-  <a
-    href="https://chat.whatsapp.com/JxWpeGyNmkPBP92zREiXo1"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="inline-flex items-center gap-2 bg-gradient-to-r from-rose-500 to-pink-500 hover:from-rose-400 hover:to-pink-400 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-full shadow-[0_0_25px_rgba(244,114,182,0.6)] hover:shadow-[0_0_35px_rgba(244,114,182,1)] transition-all duration-300"
-  >
-    <WhatsappIcon className="w-5 h-5 sm:w-6 sm:h-6" />
-    <span className="font-medium text-base sm:text-lg">Unirme al grupo de Chinchón</span>
-  </a>
-</motion.div>
-
+        <a
+          href="https://chat.whatsapp.com/JxWpeGyNmkPBP92zREiXo1"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-2 bg-gradient-to-r from-rose-500 to-pink-500 hover:from-rose-400 hover:to-pink-400 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-full shadow-[0_0_25px_rgba(244,114,182,0.6)] hover:shadow-[0_0_35px_rgba(244,114,182,1)] transition-all duration-300"
+        >
+          <WhatsappIcon className="w-5 h-5 sm:w-6 sm:h-6" />
+          <span className="font-medium text-base sm:text-lg">Unirme al grupo de Chinchón</span>
+        </a>
+      </motion.div>
 
       {/* CTA final */}
       <motion.section
@@ -294,7 +290,7 @@ export default function LandingPage() {
           <motion.div variants={fadeInUp} className="relative inline-block">
             <div className="absolute inset-0 bg-green-500 rounded-full blur-xl opacity-30 animate-pulse-slow"></div>
             <a
-              href="https://chat.whatsapp.com/LWBa5y5VGDr7Z7ohuYqBkh?mode=ac_t"
+              href="https://chat.whatsapp.com/KUh6f7srhlk3aAy4bv58h1"
               target="_blank"
               rel="noreferrer"
               className="relative inline-flex items-center gap-2 bg-gradient-to-r from-green-500 to-green-400 hover:from-green-400 hover:to-green-300 text-white px-6 sm:px-10 py-3 sm:py-5 rounded-full shadow-[0_0_25px_rgba(34,197,94,0.7)] hover:shadow-[0_0_35px_rgba(34,197,94,1)] transition-all duration-300 animate-pulse-glow"
