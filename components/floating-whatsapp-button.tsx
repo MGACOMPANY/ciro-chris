@@ -4,7 +4,7 @@ import { motion } from "framer-motion"
 import { WhatsappIcon } from "./whatsapp-icon"
 
 export function FloatingWhatsAppButton() {
-  const whatsappLink = "https://chat.whatsapp.com/LWBa5y5VGDr7Z7ohuYqBkh?mode=ac_t"
+  const whatsappLink = "https://chat.whatsapp.com/GwGbI28YaFg27qzjSTNBYk?mode=wwc"
 
   return (
     <motion.div

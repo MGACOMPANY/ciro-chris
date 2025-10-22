@@ -112,7 +112,7 @@ export default function LandingPage() {
               transition={{ delay: 1.8, duration: 0.5 }}
             >
               <a
-                href="https://chat.whatsapp.com/LWBa5y5VGDr7Z7ohuYqBkh?mode=ac_t"
+                href="https://chat.whatsapp.com/GwGbI28YaFg27qzjSTNBYk?mode=wwc"
                 target="_blank"
                 rel="noreferrer"
                 className="inline-flex items-center gap-2 bg-gradient-to-r from-green-500 to-green-400 hover:from-green-400 hover:to-green-300 text-white px-8 sm:px-10 py-4 sm:py-4 rounded-full shadow-[0_0_25px_rgba(34,197,94,0.7)] hover:shadow-[0_0_35px_rgba(34,197,94,1)] transition-all duration-300 animate-pulse-glow"
