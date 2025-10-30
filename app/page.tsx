@@ -112,7 +112,7 @@ export default function LandingPage() {
               transition={{ delay: 1.8, duration: 0.5 }}
             >
               <a
-                href="https://chat.whatsapp.com/GwGbI28YaFg27qzjSTNBYk?mode=wwt"
+                href="https://chat.whatsapp.com/DST5UgilCHPD2PMoA9bqSk"
                 target="_blank"
                 rel="noreferrer"
                 className="inline-flex items-center gap-2 bg-gradient-to-r from-green-500 to-green-400 hover:from-green-400 hover:to-green-300 text-white px-8 sm:px-10 py-4 sm:py-4 rounded-full shadow-[0_0_25px_rgba(34,197,94,0.7)] hover:shadow-[0_0_35px_rgba(34,197,94,1)] transition-all duration-300 animate-pulse-glow"
@@ -260,7 +260,7 @@ export default function LandingPage() {
           <motion.div variants={fadeInUp} className="relative inline-block">
             <div className="absolute inset-0 bg-green-500 rounded-full blur-xl opacity-30 animate-pulse-slow"></div>
             <a
-              href="https://chat.whatsapp.com/GwGbI28YaFg27qzjSTNBYk?mode=wwt"
+              href="https://chat.whatsapp.com/DST5UgilCHPD2PMoA9bqSk"
               target="_blank"
               rel="noreferrer"
               className="relative inline-flex items-center gap-2 bg-gradient-to-r from-green-500 to-green-400 hover:from-green-400 hover:to-green-300 text-white px-6 sm:px-10 py-3 sm:py-5 rounded-full shadow-[0_0_25px_rgba(34,197,94,0.7)] hover:shadow-[0_0_35px_rgba(34,197,94,1)] transition-all duration-300 animate-pulse-glow"
