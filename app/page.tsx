@@ -3,7 +3,6 @@
 import { motion } from "framer-motion"
 import { WhatsappIcon } from "@/components/whatsapp-icon"
 import { FloatingWhatsAppButton } from "@/components/floating-whatsapp-button"
-import { ChevronDown } from "lucide-react"
 import { useEffect, useState } from "react"
 
 export default function LandingPage() {
@@ -132,7 +131,9 @@ export default function LandingPage() {
           transition={{ delay: 2, duration: 0.5, repeat: Number.POSITIVE_INFINITY, repeatType: "reverse" }}
           onClick={scrollToContent}
         >
-          <ChevronDown className="w-8 h-8 sm:w-10 sm:h-10 text-white" />
+          <svg className="w-8 h-8 sm:w-10 sm:h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+          </svg>
         </motion.div>
       </header>
 
@@ -260,7 +261,7 @@ export default function LandingPage() {
           <motion.div variants={fadeInUp} className="relative inline-block">
             <div className="absolute inset-0 bg-green-500 rounded-full blur-xl opacity-30 animate-pulse-slow"></div>
             <a
-              href="https://chat.whatsapp.com/DST5UgilCHPD2PMoA9bqSk"
+              href="https://chat.whatsapp.com/GwGbI28YaFg27qzjSTNBYk?mode=wwc"
               target="_blank"
               rel="noreferrer"
               className="relative inline-flex items-center gap-2 bg-gradient-to-r from-green-500 to-green-400 hover:from-green-400 hover:to-green-300 text-white px-6 sm:px-10 py-3 sm:py-5 rounded-full shadow-[0_0_25px_rgba(34,197,94,0.7)] hover:shadow-[0_0_35px_rgba(34,197,94,1)] transition-all duration-300 animate-pulse-glow"
