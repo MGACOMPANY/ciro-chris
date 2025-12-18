@@ -1,3 +1,6 @@
+/* Moved font import to top, before all @layer statements */
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@400;600&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -58,9 +61,7 @@
   }
 }
 
-/* Simplified font imports and styles */
-@import url("https://fonts.googleapis.com/css2?family=Teko:wght@400;600&display=swap");
-
+/* Font styles */
 .font-neon {
   font-family: "Teko", sans-serif;
   font-weight: 600;
