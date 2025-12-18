@@ -2,10 +2,9 @@
 
 import { motion } from "framer-motion"
 import { WhatsappIcon } from "./whatsapp-icon"
+import { WHATSAPP_LINK } from "@/lib/whatsapp-config"
 
 export function FloatingWhatsAppButton() {
-  const whatsappLink = "https://chat.whatsapp.com/DST5UgilCHPD2PMoA9bqSk"
-
   return (
     <motion.div
       className="fixed bottom-4 left-4 sm:bottom-6 sm:left-6 z-50"
@@ -23,7 +22,7 @@ export function FloatingWhatsAppButton() {
 
       {/* Button with animations */}
       <motion.a
-        href={whatsappLink}
+        href={WHATSAPP_LINK}
         target="_blank"
         rel="noreferrer"
         className="relative flex items-center justify-center w-14 h-14 sm:w-16 sm:h-16 bg-gradient-to-r from-green-500 to-green-400 rounded-full shadow-[0_0_25px_rgba(34,197,94,0.8)] hover:shadow-[0_0_35px_rgba(34,197,94,1)] transition-all duration-300"

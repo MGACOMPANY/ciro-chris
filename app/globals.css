@@ -163,15 +163,21 @@
   }
 }
 
-/* Added smooth scroll behavior for better UX */
+/* Mejorando smooth scroll con aceleración personalizada */
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 2rem;
 }
 
 /* Optimized responsive adjustments */
 @media (max-width: 640px) {
   .text-shadow-neon {
     text-shadow: 0 0 3px rgba(255, 255, 255, 0.8), 0 0 7px rgba(255, 255, 255, 0.5), 0 0 10px rgba(255, 255, 255, 0.5);
+  }
+
+  /* Optimización para móviles pequeños */
+  .text-shadow-neon-button {
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.8), 0 0 7px rgba(255, 255, 255, 0.6);
   }
 }
 
@@ -183,5 +189,13 @@ html {
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
+  }
+}
+
+/* Optimizaciones adicionales para touch devices */
+@media (hover: none) and (pointer: coarse) {
+  .hover\:scale-105:hover,
+  .hover\:scale-103:hover {
+    transform: none;
   }
 }
