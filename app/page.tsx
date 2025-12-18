@@ -60,8 +60,6 @@ export default function LandingPage() {
     },
   }
 
-  const titleLetters = "TRUCO POR PLATA".split("")
-
   const scrollToContent = () => {
     const contentSection = document.getElementById("how-it-works")
     if (contentSection) {
@@ -89,9 +87,10 @@ export default function LandingPage() {
         >
           {/* Title */}
           <div className="mt-0 sm:mt-[-10vh]">
-            <h1 className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-bold text-white overflow-visible leading-none px-2">
-              <div className="flex flex-wrap sm:flex-nowrap justify-center items-center gap-1 sm:gap-2 md:gap-3">
-                {titleLetters.map((letter, index) => (
+            {/* Mobile: dos líneas */}
+            <h1 className="flex flex-col sm:hidden items-center gap-2 text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-extrabold tracking-tight">
+              <div className="flex justify-center items-center gap-1">
+                {"TRUCO".split("").map((letter, index) => (
                   <motion.span
                     key={index}
                     initial={{ y: -20, opacity: 0 }}
@@ -113,12 +112,72 @@ export default function LandingPage() {
                         repeatType: "reverse",
                       },
                     }}
-                    className={letter === " " ? "w-2 sm:w-3 md:w-4" : "inline-block"}
+                    className="inline-block"
                   >
                     {letter}
                   </motion.span>
                 ))}
               </div>
+              <div className="flex justify-center items-center gap-1">
+                {"POR PLATA".split("").map((letter, index) => (
+                  <motion.span
+                    key={index + 5}
+                    initial={{ y: -20, opacity: 0 }}
+                    animate={{
+                      y: 0,
+                      opacity: 1,
+                      textShadow: [
+                        "0 0 5px rgba(0,100,255,0.8), 0 0 10px rgba(0,100,255,0.5), 0 0 15px rgba(0,100,255,0.5)",
+                        "0 0 10px rgba(0,100,255,0.9), 0 0 20px rgba(0,100,255,0.6), 0 0 30px rgba(0,100,255,0.6)",
+                        "0 0 5px rgba(0,100,255,0.8), 0 0 10px rgba(0,100,255,0.5), 0 0 15px rgba(0,100,255,0.5)",
+                      ],
+                    }}
+                    transition={{
+                      delay: (index + 5) * 0.05,
+                      duration: 0.5,
+                      textShadow: {
+                        duration: 2,
+                        repeat: Number.POSITIVE_INFINITY,
+                        repeatType: "reverse",
+                      },
+                    }}
+                    className={letter === " " ? "w-3" : "inline-block"}
+                  >
+                    {letter}
+                  </motion.span>
+                ))}
+              </div>
+            </h1>
+
+            {/* Desktop: una línea */}
+            <h1 className="hidden sm:flex flex-nowrap justify-center items-center gap-1 sm:gap-2 md:gap-3 text-7xl md:text-8xl lg:text-9xl xl:text-[10rem] font-black tracking-tighter">
+              {"TRUCO POR PLATA".split("").map((letter, index) => (
+                <motion.span
+                  key={index}
+                  initial={{ y: -20, opacity: 0 }}
+                  animate={{
+                    y: 0,
+                    opacity: 1,
+                    textShadow: [
+                      "0 0 5px rgba(0,100,255,0.8), 0 0 10px rgba(0,100,255,0.5), 0 0 15px rgba(0,100,255,0.5)",
+                      "0 0 10px rgba(0,100,255,0.9), 0 0 20px rgba(0,100,255,0.6), 0 0 30px rgba(0,100,255,0.6)",
+                      "0 0 5px rgba(0,100,255,0.8), 0 0 10px rgba(0,100,255,0.5), 0 0 15px rgba(0,100,255,0.5)",
+                    ],
+                  }}
+                  transition={{
+                    delay: index * 0.05,
+                    duration: 0.5,
+                    textShadow: {
+                      duration: 2,
+                      repeat: Number.POSITIVE_INFINITY,
+                      repeatType: "reverse",
+                    },
+                  }}
+                  className={letter === " " ? "w-3 sm:w-4 md:w-5" : "inline-block"}
+                >
+                  {letter}
+                </motion.span>
+              ))}
             </h1>
           </div>
 
