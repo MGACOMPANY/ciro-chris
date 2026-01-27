@@ -6,7 +6,7 @@
  * Todos los botones y enlaces se actualizarán automáticamente.
  */
 
-export const WHATSAPP_LINK = "https://chat.whatsapp.com/LWBa5y5VGDr7Z7ohuYqBkh"
+export const WHATSAPP_LINK = "https://chat.whatsapp.com/GwGbI28YaFg27qzjSTNBYk?mode=hqrc"
 
 /**
  * Texto alternativo para accesibilidad
